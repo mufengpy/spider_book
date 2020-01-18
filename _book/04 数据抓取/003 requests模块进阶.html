@@ -1,0 +1,890 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>003 requests模块进阶 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="002 requests模块初识.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    01 爬虫介绍
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../01 爬虫介绍/001 爬虫工程师的前景.html">
+            
+                <a href="../01 爬虫介绍/001 爬虫工程师的前景.html">
+            
+                    
+                    001 爬虫工程师的前景
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../01 爬虫介绍/002 爬虫基础.html">
+            
+                <a href="../01 爬虫介绍/002 爬虫基础.html">
+            
+                    
+                    002 爬虫基础
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../01 爬虫介绍/003 概念科普.html">
+            
+                <a href="../01 爬虫介绍/003 概念科普.html">
+            
+                    
+                    003 概念科普
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../01 爬虫介绍/004 爬虫的开发流程.html">
+            
+                <a href="../01 爬虫介绍/004 爬虫的开发流程.html">
+            
+                    
+                    004 爬虫的开发流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    02 HTTP协议基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../02 HTTP协议基础/001 HTTP协议介绍.html">
+            
+                <a href="../02 HTTP协议基础/001 HTTP协议介绍.html">
+            
+                    
+                    001 HTTP协议介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../02 HTTP协议基础/002 Cookie.html">
+            
+                <a href="../02 HTTP协议基础/002 Cookie.html">
+            
+                    
+                    002 Cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../02 HTTP协议基础/003 身份验证.html">
+            
+                <a href="../02 HTTP协议基础/003 身份验证.html">
+            
+                    
+                    003 身份验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    03 Web前端基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../03 Web前端基础/001 HTML.html">
+            
+                <a href="../03 Web前端基础/001 HTML.html">
+            
+                    
+                    001 HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../03 Web前端基础/002 CSS.html">
+            
+                <a href="../03 Web前端基础/002 CSS.html">
+            
+                    
+                    002 CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../03 Web前端基础/003 JavaScript.html">
+            
+                <a href="../03 Web前端基础/003 JavaScript.html">
+            
+                    
+                    003 JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" >
+            
+                <span>
+            
+                    
+                    04 数据抓取
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="001 爬虫相关工具.html">
+            
+                <a href="001 爬虫相关工具.html">
+            
+                    
+                    001 爬虫相关工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="002 requests模块初识.html">
+            
+                <a href="002 requests模块初识.html">
+            
+                    
+                    002 requests模块初识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5.3" data-path="003 requests模块进阶.html">
+            
+                <a href="003 requests模块进阶.html">
+            
+                    
+                    003 requests模块进阶
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" >
+            
+                <span>
+            
+                    
+                    05 数据解析
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../05 数据解析/001 数据解析相关库.html">
+            
+                <a href="../05 数据解析/001 数据解析相关库.html">
+            
+                    
+                    001 数据解析相关库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../05 数据解析/002 xpath解析.html">
+            
+                <a href="../05 数据解析/002 xpath解析.html">
+            
+                    
+                    002 xpath解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" >
+            
+                <span>
+            
+                    
+                    06 数据存储
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../06 数据存储/001 存储方式.html">
+            
+                <a href="../06 数据存储/001 存储方式.html">
+            
+                    
+                    001 存储方式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../06 数据存储/002 mongo数据库.html">
+            
+                <a href="../06 数据存储/002 mongo数据库.html">
+            
+                    
+                    002 mongo数据库
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" >
+            
+                <span>
+            
+                    
+                    07 并发爬虫
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" >
+            
+                <span>
+            
+                    
+                    08 反反爬虫
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../08 反反爬虫/001 JS动态加载.html">
+            
+                <a href="../08 反反爬虫/001 JS动态加载.html">
+            
+                    
+                    001 JS动态加载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../08 反反爬虫/002 代理.html">
+            
+                <a href="../08 反反爬虫/002 代理.html">
+            
+                    
+                    002 代理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../08 反反爬虫/003 验证码识别.html">
+            
+                <a href="../08 反反爬虫/003 验证码识别.html">
+            
+                    
+                    003 验证码识别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../08 反反爬虫/004 Cookie.html">
+            
+                <a href="../08 反反爬虫/004 Cookie.html">
+            
+                    
+                    004 Cookie
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../08 反反爬虫/005 selenium.html">
+            
+                <a href="../08 反反爬虫/005 selenium.html">
+            
+                    
+                    005 selenium
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../08 反反爬虫/006 编码.html">
+            
+                <a href="../08 反反爬虫/006 编码.html">
+            
+                    
+                    006 编码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="../08 反反爬虫/007 图片音视频下载.html">
+            
+                <a href="../08 反反爬虫/007 图片音视频下载.html">
+            
+                    
+                    007 图片音视频下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" >
+            
+                <span>
+            
+                    
+                    09 APP爬虫
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../09 APP爬虫/001 模拟器安装.html">
+            
+                <a href="../09 APP爬虫/001 模拟器安装.html">
+            
+                    
+                    001 模拟器安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../09 APP爬虫/002 APP抓包工具安装.html">
+            
+                <a href="../09 APP爬虫/002 APP抓包工具安装.html">
+            
+                    
+                    002 APP抓包工具安装.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="../09 APP爬虫/003 appium安装.html">
+            
+                <a href="../09 APP爬虫/003 appium安装.html">
+            
+                    
+                    003 appium安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    10 爬虫框架
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../10 爬虫框架/01 scrapy简介.html">
+            
+                <a href="../10 爬虫框架/01 scrapy简介.html">
+            
+                    
+                    01 scrapy简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >003 requests模块进阶</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>[TOC]</p>
+<h2 id="&#x53D1;&#x9001;get&#x8BF7;&#x6C42;"><font color="#0099CC">&#x53D1;&#x9001;get&#x8BF7;&#x6C42;</font></h2>
+<pre><code class="lang-python"><span class="hljs-string">&apos;&apos;&apos;
+&#x641C;&#x72D7;&#x641C;&#x7D22;
+&apos;&apos;&apos;</span>
+<span class="hljs-keyword">import</span> requests
+
+<span class="hljs-comment"># &#x6307;&#x5B9A;&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57;</span>
+word = input(<span class="hljs-string">&apos;&#x6307;&#x5B9A;&#x641C;&#x7D22;&#x5173;&#x952E;&#x5B57;:&apos;</span>)
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x8BF7;&#x6C42;&#x5934;&#x4FE1;&#x606F;:UA&#x4F2A;&#x88C5;</span>
+headers = {
+    <span class="hljs-string">&apos;User-Agent&apos;</span>: <span class="hljs-string">&apos;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36&apos;</span>,
+}
+<span class="hljs-comment"># &#x6307;&#x5B9A;url&#xFF0C;&#x539F;&#x59CB;url&#x53EF;&#x80FD;&#x662F;https://www.sogou.com/web?query=&#x5C0F;&#x7535;&#x5F71;</span>
+url = <span class="hljs-string">&apos;https://www.sogou.com/web&apos;</span>
+<span class="hljs-comment"># &#x5C01;&#x88C5;get&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;&#x5982;&#x679C;&#x8BF7;&#x6C42;&#x643A;&#x5E26;&#x4E86;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x5C06;&#x53C2;&#x6570;&#x5C01;&#x88C5;&#x5230;&#x5B57;&#x5178;&#x4E2D;&#x7ED3;&#x5408;&#x8FD9;requests&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;&#x4E2D;&#x7684;data/params&#x53C2;&#x6570;&#x8FDB;&#x884C;url&#x53C2;&#x6570;&#x7684;&#x5904;&#x7406;</span>
+param = {
+    <span class="hljs-string">&apos;query&apos;</span>: word,
+}
+<span class="hljs-comment"># &#x53D1;&#x8D77;&#x8BF7;&#x6C42;</span>
+response = requests.get(url=url, params=param, headers=headers)
+<span class="hljs-comment"># &#x83B7;&#x53D6;&#x54CD;&#x5E94;&#x6570;&#x636E;</span>
+page_text = response.text
+<span class="hljs-comment"># &#x6301;&#x4E45;&#x5316;&#x5B58;&#x50A8;</span>
+fileName = word + <span class="hljs-string">&apos;.html&apos;</span>
+<span class="hljs-keyword">with</span> open(fileName, <span class="hljs-string">&apos;w&apos;</span>, encoding=<span class="hljs-string">&apos;utf-8&apos;</span>) <span class="hljs-keyword">as</span> f:
+    f.write(page_text)
+</code></pre>
+<h2 id="&#x53D1;&#x9001;post&#x8BF7;&#x6C42;"><font color="#0099CC">&#x53D1;&#x9001;post&#x8BF7;&#x6C42;</font></h2>
+<pre><code class="lang-python"><span class="hljs-string">&apos;&apos;&apos;
+&#x767B;&#x5F55;&#x8C46;&#x74E3;&#x7F51;
+&apos;&apos;&apos;</span>
+<span class="hljs-comment"># coding:utf-8</span>
+<span class="hljs-keyword">import</span> requests
+
+<span class="hljs-comment"># &#x767B;&#x5F55;&#x8BF7;&#x6C42;&#x5730;&#x5740;</span>
+url = <span class="hljs-string">&apos;https://accounts.douban.com/j/mobile/login/basic&apos;</span>
+<span class="hljs-comment"># &#x8BF7;&#x6C42;&#x5934;</span>
+headers = {
+    <span class="hljs-string">&quot;User-Agent&quot;</span>: <span class="hljs-string">&quot;Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36&quot;</span>
+}
+<span class="hljs-comment"># body&#x6570;&#x636E;</span>
+data = {
+    <span class="hljs-string">&apos;name&apos;</span>: <span class="hljs-string">&quot;18879404697&quot;</span>,  <span class="hljs-comment"># &#x8D26;&#x53F7;</span>
+    <span class="hljs-string">&quot;password&quot;</span>: <span class="hljs-string">&quot;liu1314.@qq&quot;</span>,  <span class="hljs-comment"># &#x5BC6;&#x7801;</span>
+    <span class="hljs-string">&quot;remember&quot;</span>: <span class="hljs-string">&quot;false&quot;</span>
+}
+<span class="hljs-comment"># &#x53D1;&#x9001;&#x8BF7;&#x6C42;</span>
+r = requests.post(url, headers=headers, data=data)
+<span class="hljs-comment"># &#x5224;&#x65AD;&#x662F;&#x5426;&#x767B;&#x5F55;&#x6210;&#x529F;</span>
+<span class="hljs-keyword">if</span> <span class="hljs-string">&apos;&#x6210;&#x529F;&apos;</span> <span class="hljs-keyword">in</span> r.text:
+    print(<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x6210;&#x529F;&apos;</span>)
+<span class="hljs-keyword">else</span>:
+    print(<span class="hljs-string">&apos;&#x767B;&#x5F55;&#x5931;&#x8D25;&apos;</span>)
+</code></pre>
+<h2 id="&#x53D1;&#x9001;ajax&#x7684;get&#x8BF7;&#x6C42;"><font color="#0099CC">&#x53D1;&#x9001;ajax&#x7684;get&#x8BF7;&#x6C42;</font></h2>
+<pre><code class="lang-&#x3002;&#xFF0C;&#x4F60;&#x522B;Q&#xB7;-">&apos;&apos;&apos;
+&#x8C46;&#x74E3;&#x7535;&#x5F71;
+&apos;&apos;&apos;
+import requests, json
+
+# &#x6307;&#x5B9A;ajax-get&#x8BF7;&#x6C42;&#x7684;url&#xFF08;&#x901A;&#x8FC7;&#x6293;&#x5305;&#x8FDB;&#x884C;&#x83B7;&#x53D6;&#xFF09;
+url = &apos;https://movie.douban.com/j/chart/top_list?&apos;
+# &#x5B9A;&#x5236;&#x8BF7;&#x6C42;&#x5934;&#x4FE1;&#x606F;
+headers = {
+    # &#x5B9A;&#x5236;UA
+    &apos;User-Agent&apos;: &apos;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36&apos;,
+}
+# &#x5B9A;&#x5236;get&#x8BF7;&#x6C42;&#x643A;&#x5E26;&#x7684;&#x53C2;&#x6570;(&#x4ECE;&#x6293;&#x5305;&#x5DE5;&#x5177;&#x4E2D;&#x83B7;&#x53D6;)
+param = {
+    &apos;type&apos;: &apos;5&apos;,
+    &apos;interval_id&apos;: &apos;100:90&apos;,
+    &apos;action&apos;: &apos;&apos;,
+    &apos;start&apos;: &apos;0&apos;,
+    &apos;limit&apos;: &apos;2&apos;
+}  &#x624D;&#x662F;&#x6211;
+# &#x53D1;&#x8D77;get&#x8BF7;&#x6C42;&#xFF0C;&#x83B7;&#x53D6;&#x54CD;&#x5E94;&#x5BF9;&#x8C61;
+response = requests.get(url=url, headers=headers, params=param)
+# &#x83B7;&#x53D6;&#x54CD;&#x5E94;&#x5185;&#x5BB9;
+print(response.json())
+json_data = response.json()
+# &#x6301;&#x4E45;&#x5316;&#x5B58;&#x50A8;
+fileName = &apos;douban&apos; + &apos;.json&apos;
+with open(fileName, &apos;w&apos;, encoding=&apos;utf-8&apos;) as f:
+    json.dump(json_data, f, ensure_ascii=False)3&#x3011;&#x3010;utrertyu+
+    &#x811A;&#x540E;&#x8DDF;&#x5417;&#xFF0C;
+</code></pre>
+<h2 id="&#x53D1;&#x9001;ajax&#x7684;post&#x8BF7;&#x6C42;"><font color="#0099CC">&#x53D1;&#x9001;ajax&#x7684;post&#x8BF7;&#x6C42;</font></h2>
+<pre><code class="lang-python"><span class="hljs-string">&apos;&apos;&apos;
+&#x767E;&#x5EA6;&#x7FFB;&#x8BD1;
+&apos;&apos;&apos;</span>
+
+<span class="hljs-keyword">import</span> requests
+<span class="hljs-keyword">import</span> json
+
+word = input(<span class="hljs-string">&apos;enter a English word:&apos;</span>)
+<span class="hljs-comment"># &#x81EA;&#x5B9A;&#x4E49;&#x8BF7;&#x6C42;&#x5934;&#x4FE1;&#x606F;:UA&#x4F2A;&#x88C5;</span>
+headers = {
+    <span class="hljs-string">&apos;User-Agent&apos;</span>: <span class="hljs-string">&apos;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36&apos;</span>,
+}
+<span class="hljs-comment"># &#x6307;&#x5B9A;url&#xFF0C;&#x539F;&#x59CB;url&#x53EF;&#x80FD;&#x662F;https://www.sogou.com/web?query=hello&#xFF0C;&#x53D1;&#x73B0;&#x8BE5;url&#x643A;&#x5E26;&#x4E86;&#x53C2;&#x6570;</span>
+url = <span class="hljs-string">&apos;https://fanyi.baidu.com/sug&apos;</span>
+<span class="hljs-comment"># &#x5C01;&#x88C5;post&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF1A;&#x5982;&#x679C;&#x8BF7;&#x6C42;&#x643A;&#x5E26;&#x4E86;&#x53C2;&#x6570;&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x5C06;&#x53C2;&#x6570;&#x5C01;&#x88C5;&#x5230;&#x5B57;&#x5178;&#x4E2D;&#x7ED3;&#x5408;&#x8FD9;requests&#x8BF7;&#x6C42;&#x65B9;&#x6CD5;&#x4E2D;&#x7684;data/params&#x53C2;&#x6570;&#x8FDB;&#x884C;url&#x53C2;&#x6570;&#x7684;&#x5904;&#x7406;</span>
+data = {
+    <span class="hljs-string">&apos;kw&apos;</span>: word,
+}
+<span class="hljs-comment"># &#x53D1;&#x8D77;&#x8BF7;&#x6C42;</span>
+response = requests.post(url=url, data=data, headers=headers)
+<span class="hljs-comment"># &#x83B7;&#x53D6;&#x54CD;&#x5E94;&#x6570;&#x636E;:&#x5982;&#x679C;&#x54CD;&#x5E94;&#x56DE;&#x6765;&#x7684;&#x6570;&#x636E;&#x4E3A;json&#xFF0C;&#x5219;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#x54CD;&#x5E94;&#x5BF9;&#x8C61;&#x7684;json&#x65B9;&#x6CD5;&#x83B7;&#x53D6;json&#x5BF9;&#x8C61;&#x6570;&#x636E;</span>
+json_data = response.json()
+<span class="hljs-comment"># &#x6301;&#x4E45;&#x5316;&#x5B58;&#x50A8;</span>
+fileName = word + <span class="hljs-string">&apos;.json&apos;</span>
+f = open(fileName, <span class="hljs-string">&apos;w&apos;</span>, encoding=<span class="hljs-string">&apos;utf-8&apos;</span>)
+json.dump(json_data, f, ensure_ascii=<span class="hljs-keyword">False</span>)
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="002 requests模块初识.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 002 requests模块初识">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"003 requests模块进阶","level":"1.5.3","depth":2,"next":{"title":"05 数据解析","level":"1.6","depth":1,"ref":"","articles":[{"title":"001 数据解析相关库","level":"1.6.1","depth":2,"path":"05 数据解析/001 数据解析相关库.md","ref":"05 数据解析/001 数据解析相关库.md","articles":[]},{"title":"002 xpath解析","level":"1.6.2","depth":2,"path":"05 数据解析/002 xpath解析.md","ref":"05 数据解析/002 xpath解析.md","articles":[]}]},"previous":{"title":"002 requests模块初识","level":"1.5.2","depth":2,"path":"04 数据抓取/002 requests模块初识.md","ref":"04 数据抓取/002 requests模块初识.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"04 数据抓取/003 requests模块进阶.md","mtime":"2020-01-18T03:52:07.109Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-18T13:15:21.705Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
